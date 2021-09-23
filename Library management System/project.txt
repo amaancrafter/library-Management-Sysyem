@@ -1,0 +1,6 @@
+drop database project;
+create database project;
+use project;
+create table books(bid varchar(5),bname varchar(20),aname varchar(20),issued_to varchar(20));
+create table lib(lid varchar(5),fname varchar(20),uname varchar(20),pwd varchar(20));
+;
